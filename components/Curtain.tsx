@@ -119,15 +119,15 @@ const DEFAULT_TARGET = new Date(Date.UTC(2026, 7, 11, 0, 0, 0) - (5 * 60 + 30) *
 type UnitKey = 'days' | 'hours' | 'minutes' | 'seconds';
 
 export default function ShowtimeCountdown({
-  tickerText = 'SAVE THE DATE · AUGUST 11 ·',
+  tickerText = 'SAVE THE DATE · OCTOBER 18 ·',
   marqueeTitle = 'NOW SHOWING',
-  marqueeSub = "a Pipi production, live August 11th",
+ marqueeSub = "Sristy ke birthday par Kartikeya ki taraf se special gift",
   doorsText = 'doors open at midnight, IST',
   songSrc,
   songVolume = 0.6,
   redirectTo,
   children,
-  showPreviewButton = true,
+  showPreviewButton = false,
 }: ShowtimeCountdownProps) {
   const router = useRouter();
 
