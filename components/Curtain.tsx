@@ -408,7 +408,7 @@ export default function ShowtimeCountdown({
         <div className="grain" />
       </div>
 
-     {showPreviewButton && (
+    {false && (
         <button
           type="button"
           className="preview-btn"
